@@ -7,7 +7,7 @@ void	check_leak(void)
 
 int main()
 {
-	atexit(check_leak);
+//	atexit(check_leak);
 	Harl harl = Harl();
 
 	harl.complain("DEBUG");

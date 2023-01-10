@@ -11,6 +11,7 @@ private:
     void    info( void );
     void    warning( void );
     void    error( void );
+    void    exception( void );
 
 public:
     Harl();
