@@ -34,8 +34,8 @@ int	main(int argc, char *argv[])
 		while (true)
 		{
 			pos = line.find(argv[2], rPos); // rPos 인덱스부터. return : 위치 인덱스
-            std::cout << pos << " " << std::endl;
-            std::cout << rPos << std::endl;
+            // std::cout << pos << " " << std::endl;
+            // std::cout << rPos << std::endl;
 			if (pos == std::string::npos) // npos 는 -1을 가지는 상수. find 되지 못했을 때.
 			{
 				ofs << line.substr(rPos, line.length() - rPos) << std::endl; // pos + count 를 리턴.
