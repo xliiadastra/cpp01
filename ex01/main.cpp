@@ -13,6 +13,7 @@ int main()
 
 	for (int i = 0; i < N; ++i)
 		zombies[i].announce();
-	delete[] zombies; // delete[] is used for an array of objects.
+	delete[] zombies;
+
 	return (0);
 }

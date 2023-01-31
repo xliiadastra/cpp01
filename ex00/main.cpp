@@ -2,14 +2,14 @@
 
 void	check_leak(void)
 {
-	system("leaks brainz");
+	system("leaks zombie");
 }
 
-int main()
+int	main()
 {
 //	atexit(check_leak);
-	Zombie *ted;
-	Zombie *julia;
+	Zombie	*ted;
+	Zombie	*julia;
 
 	ted = newZombie("Ted");
 	ted->announce();
@@ -20,8 +20,8 @@ int main()
 	randomChump("Maria");
 	randomChump("Timmie");
 
-	delete julia;
-	delete ted;
+	delete	julia;
+	delete	ted;
 
 	return (0);
 }

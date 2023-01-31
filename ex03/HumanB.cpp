@@ -3,7 +3,7 @@
 HumanB::HumanB( std::string name )
 {
     this->name = name;
-    this->weaponB = nullptr;
+    this->weaponB = NULL;
 }
 
 HumanB::~HumanB()
@@ -12,7 +12,7 @@ HumanB::~HumanB()
 
 void    HumanB::attack( void )
 {
-    if (weaponB != nullptr)
+    if (weaponB != NULL)
         std::cout << name << " attacks with their " << weaponB->getType() << std::endl;
     else
         std::cout << name << " has no weapon" << std::endl;

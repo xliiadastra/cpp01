@@ -10,6 +10,7 @@ class HumanA
 private:
     std::string name;
     Weapon &weaponA;
+
 public:
     HumanA( std::string name, Weapon &club );
     ~HumanA();
